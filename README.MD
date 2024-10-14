@@ -10,8 +10,8 @@ This method is for Linux only, but soon will be added another method also for Wi
 
 1. **git clone** this repository to you PC and open her (all what we do is only inside the terminal of Linux!)
 2. **Install nasm:** I do it on Linux, so guide is also ONLY for Linux users. On Ubuntu enter **sudo apt-get install nasm**, on Arch **sudo pacman -S nasm** etc.
-3. **Run nasm:** Inside folder with **main.asm**, run **nasm -f elf64 hello.asm -o hello.o**, to assemble the code into an object file.
-4. **Link:** Then enter **ld hello.o -o hello** to link the Object File Link the object file to create an executable.
+3. **Run nasm:** Inside folder with **main.asm**, run **nasm -f elf64 main.asm -o main.o**, to assemble the code into an object file.
+4. **Link:** Then enter **ld main.o -o main** to link the Object File Link the object file to create an executable.
 5. **And finally:** Execute the program to see the output! **./hello*
 
 You should see **Hello, World!** printed to the terminal.
